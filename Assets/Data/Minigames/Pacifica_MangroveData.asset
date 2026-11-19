@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed75924b5a8788a419451f7fb93d5073, type: 3}
+  m_Name: Pacifica_MangroveData
+  m_EditorClassIdentifier: Assembly-CSharp::Nehexplorer.PacificMangroveDataSet
+  tasks:
+  - id: Bottle
+    label: "BOTELLA\nResiduo pl\xE1stico"
+    stage: 0
+    targetId: Waste
+    sprite: {fileID: 0}
+    color: {r: 0.74, g: 0.83, b: 0.93, a: 1}
+    fact: "Retirar los residuos reduce los riesgos de ingesti\xF3n y enredo para la fauna. Los residuos deben recogerse de forma segura y entregarse para su gesti\xF3n adecuada."
+    hint: "Los residuos van al punto de recolecci\xF3n."
+  - id: Bag
+    label: "BOLSA\nResiduo pl\xE1stico"
+    stage: 0
+    targetId: Waste
+    sprite: {fileID: 0}
+    color: {r: 0.93, g: 0.83, b: 0.63, a: 1}
+    fact: "Una bolsa pl\xE1stica puede fragmentarse en piezas m\xE1s peque\xF1as. Evitar que llegue al manglar y reducir su uso es mejor que tener que retirarla despu\xE9s."
+    hint: No entierres la bolsa ni la arrojes al agua.
+  - id: Can
+    label: "LATA\nResiduo met\xE1lico"
+    stage: 0
+    targetId: Waste
+    sprite: {fileID: 0}
+    color: {r: 0.82, g: 0.82, b: 0.85, a: 1}
+    fact: "Los residuos met\xE1licos pueden tener bordes cortantes. En una limpieza real se utilizan guantes y se sigue un protocolo de seguridad; no se manipulan objetos peligrosos sin ayuda."
+    hint: "La lata debe salir del ecosistema para una gesti\xF3n segura."
+  - id: RedPlant
+    label: 'MANGLE ROJO
+
+      Pista: borde del agua'
+    stage: 1
+    targetId: Red
+    sprite: {fileID: 0}
+    color: {r: 0.83, g: 0.66, b: 0.42, a: 1}
+    fact: "El mangle rojo tiene ra\xEDces de soporte que parecen zancos y ayudan a estabilizarlo en sedimentos blandos. Las ra\xEDces crean espacios que pueden servir de refugio a otros organismos."
+    hint: Busca la zona del borde del agua.
+  - id: BlackPlant
+    label: 'MANGLE NEGRO
+
+      Pista: suelo lodoso'
+    stage: 1
+    targetId: Black
+    sprite: {fileID: 0}
+    color: {r: 0.73, g: 0.65, b: 0.49, a: 1}
+    fact: "El mangle negro puede desarrollar neumat\xF3foros: ra\xEDces que sobresalen del suelo y facilitan el intercambio de gases en terrenos con poco ox\xEDgeno. No deben confundirse con basura ni cortarse."
+    hint: "Busca el suelo lodoso y sus ra\xEDces emergentes."
+  - id: WhitePlant
+    label: "MANGLE BLANCO\nPista: menos inundaci\xF3n"
+    stage: 1
+    targetId: White
+    sprite: {fileID: 0}
+    color: {r: 0.82, g: 0.88, b: 0.56, a: 1}
+    fact: "El mangle blanco suele encontrarse en zonas con inundaci\xF3n menos frecuente, aunque la distribuci\xF3n cambia entre lugares. Este tablero es un modelo: antes de plantar hay que evaluar el agua, el suelo y las especies locales."
+    hint: Busca la zona menos inundada del modelo.
+  - id: Crab
+    label: "CANGREJO\nPista: ra\xEDces y fango"
+    stage: 2
+    targetId: Roots
+    sprite: {fileID: 0}
+    color: {r: 0.98, g: 0.61, b: 0.36, a: 1}
+    fact: "Muchos cangrejos del manglar usan el suelo y las ra\xEDces como refugio. Algunos consumen materia org\xE1nica y contribuyen a su transformaci\xF3n. Restaurar h\xE1bitats no significa trasladar animales por cuenta propia."
+    hint: "Busca los refugios del suelo entre ra\xEDces."
+  - id: Fish
+    label: 'PECES JUVENILES
+
+      Pista: canales con agua'
+    stage: 2
+    targetId: Water
+    sprite: {fileID: 0}
+    color: {r: 0.56, g: 0.8, b: 0.92, a: 1}
+    fact: "Los canales conectados con el estuario y las ra\xEDces sumergidas pueden ofrecer alimento y protecci\xF3n a peces juveniles. Mantener la circulaci\xF3n del agua es esencial para recuperar un manglar."
+    hint: Los peces necesitan los canales de agua.
+  - id: Heron
+    label: 'GARZA
+
+      Pista: ramas para descansar'
+    stage: 2
+    targetId: Branches
+    sprite: {fileID: 0}
+    color: {r: 0.92, g: 0.92, b: 0.85, a: 1}
+    fact: "Las garzas pueden usar ramas como lugares de descanso y buscar alimento en zonas someras. Conservar vegetaci\xF3n y evitar molestias ayuda a proteger a las aves. Aqu\xED relacionas refugios, no capturas animales."
+    hint: Busca las ramas donde puede descansar un ave.
+  stageTitles:
+  - 1. RETIRA LOS RESIDUOS
+  - 2. UBICA LAS PLANTAS
+  - 3. RECUPERA LOS REFUGIOS
+  stageInstructions:
+  - "Arrastra los residuos al punto de recolecci\xF3n. No los entierres ni los arrojes al agua."
+  - "Lee cada tarjeta y ub\xEDcala en la zona que indica su pista."
+  - "Relaciona cada animal con su refugio. En la naturaleza no se trasladan animales para completar una restauraci\xF3n."
+  winFact: "Los manglares del Pac\xEDfico colombiano ofrecen refugio y alimento a numerosos seres vivos. Sus ra\xEDces ayudan a retener sedimentos y sus suelos pueden almacenar carbono. Restaurarlos requiere recuperar el flujo del agua, reducir las presiones humanas y contar con las comunidades locales; no basta con plantar \xE1rboles."
+  modelNote: "Modelo educativo simplificado: la distribuci\xF3n de los mangles depende del agua, el suelo y la salinidad. Una restauraci\xF3n real requiere evaluaci\xF3n t\xE9cnica y participaci\xF3n comunitaria."

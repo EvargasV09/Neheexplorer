@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a47638987d3a842a03116daf303fc5, type: 3}
+  m_Name: Amazonica_ExpeditionData
+  m_EditorClassIdentifier: Assembly-CSharp::Nehexplorer.AmazonExpeditionDataSet
+  minigameTitle: "Expedici\xF3n en Canoa: R\xEDo Amazonas y Selva Viva"
+  instructions: "Navega con [W / S] o [Arriba / Abajo] y presiona [ESPACIO] o el bot\xF3n de FOTOGRAFIAR cuando una especie est\xE9 en tu encuadre. \xA1Registra al menos 5 especies y esquiva los obst\xE1culos!"
+  expeditionDistance: 1200
+  scrollSpeed: 50
+  startingHullIntegrity: 4
+  requiredSpeciesPhotos: 5
+  winFactTitle: "\xBFSab\xEDas que...?"
+  winEducationalFact: "La cuenca del r\xEDo Amazonas representa m\xE1s de un tercio del territorio de Colombia y produce cerca del 20% del ox\xEDgeno del planeta y el 15% del agua dulce que desemboca en los oc\xE9anos. El Parque Nacional Natural Serran\xEDa de Chiribiquete en la Amazon\xEDa colombiana es Patrimonio Mixto de la Humanidad por sus tepuyes y m\xE1s de 75.000 pinturas rupestres ancestrales."
+  speciesCatalog:
+  - id: DelfinRosado
+    name: "Delf\xEDn Rosado (Boto)"
+    scientificName: Inia geoffrensis
+    habitat: "Lagos de Tarapoto y R\xEDo Amazonas"
+    shortLabel: "DELF\xCDN ROSADO"
+    emoji: "\u2605"
+    customSprite: {fileID: 1630287093, guid: 7f7c68a6b2bab0d4583aee5115c4108c, type: 3}
+    educationalNote: "Es el delf\xEDn de r\xEDo m\xE1s grande del mundo. Su color rosado aumenta con la edad y puede doblar el cuello en 90 grados para cazar entre \xE1rboles inundados."
+    cardColor: {r: 0.98, g: 0.65, b: 0.78, a: 1}
+  - id: Jaguar
+    name: "Jaguar Amaz\xF3nico"
+    scientificName: Panthera onca
+    habitat: Selva y orillas del Parque Amacayacu
+    shortLabel: JAGUAR
+    emoji: "\u2605"
+    customSprite: {fileID: 468471176, guid: bc623b6dfae5be44fa6e472ac2b68817, type: 3}
+    educationalNote: "Es el felino m\xE1s grande de Am\xE9rica y un nadador excepcional. En la cosmovisi\xF3n ind\xEDgena es s\xEDmbolo de poder espiritual y equilibrio biol\xF3gico."
+    cardColor: {r: 0.96, g: 0.75, b: 0.35, a: 1}
+  - id: Guacamaya
+    name: Guacamaya Escarlata
+    scientificName: Ara macao
+    habitat: "Copas de \xE1rboles del dosel amaz\xF3nico"
+    shortLabel: GUACAMAYA
+    emoji: "\u2605"
+    customSprite: {fileID: 1870272992, guid: a87b788a8b74ba14491a1bcd720702a9, type: 3}
+    educationalNote: "Ave mon\xF3gama de plumaje rojo, amarillo y azul que dispersa semillas en la selva mientras vuela en ruidosas parejas o bandadas."
+    cardColor: {r: 0.95, g: 0.4, b: 0.35, a: 1}
+  - id: VictoriaRegia
+    name: Victoria Regia (Lirio Gigante)
+    scientificName: Victoria amazonica
+    habitat: "Aguas calmas de lagunas e igap\xF3s"
+    shortLabel: VICTORIA REGIA
+    emoji: "\u2605"
+    customSprite: {fileID: -1089115598, guid: 6f471ed502e3d5e44a4d0af6852eeb4c, type: 3}
+    educationalNote: "Sus hojas circulares flotantes pueden medir hasta 2 metros de di\xE1metro y soportar hasta 40 kilos distribuidos sobre su superficie."
+    cardColor: {r: 0.4, g: 0.85, b: 0.6, a: 1}
+  - id: Pirarucu
+    name: "Piraruc\xFA (Arapaima)"
+    scientificName: Arapaima gigas
+    habitat: "Cuenca profunda del r\xEDo Amazonas"
+    shortLabel: "PIRARUC\xDA"
+    emoji: "\u2605"
+    customSprite: {fileID: -1027946690, guid: ac9012a5a457c504b854102d1833e39e, type: 3}
+    educationalNote: "Pez f\xF3sil viviente que puede medir m\xE1s de 3 metros y pesar 200 kg. Necesita respirar aire de la superficie peri\xF3dicamente gracias a su vejiga natatoria."
+    cardColor: {r: 0.42, g: 0.75, b: 0.88, a: 1}
+  - id: TitiPigmeo
+    name: "Mono Tit\xED Pigmeo (Leoncitof)"
+    scientificName: Cebuella pygmaea
+    habitat: "Selva baja y riberas de r\xEDos"
+    shortLabel: "TIT\xCD PIGMEO"
+    emoji: "\u2605"
+    customSprite: {fileID: -1019218956, guid: 12af2d8a5b8897f4ba99d58cb2ae0067, type: 3}
+    educationalNote: "Es el mono m\xE1s diminuto del mundo: cabe en la palma de una mano humana y se alimenta principalmente de savia y goma de los \xE1rboles."
+    cardColor: {r: 0.85, g: 0.7, b: 0.5, a: 1}
+  riverHazards:
+  - id: Palizada
+    name: Troncos Flotantes (Palizada)
+    shortLabel: PALIZADA
+    emoji: "\u25B2"
+    customSprite: {fileID: -361554240, guid: 96163c7ba732b2a4e947d1f2ed9f8be9, type: 3}
+    hazardColor: {r: 0.55, g: 0.32, b: 0.18, a: 1}
+  - id: Remolino
+    name: Remolino Fluvial
+    shortLabel: REMOLINO
+    emoji: "\u25B2"
+    customSprite: {fileID: -1488749030, guid: f0f110c076e3c62489d85497bc078e18, type: 3}
+    hazardColor: {r: 0.2, g: 0.5, b: 0.68, a: 1}
+  - id: BancoArena
+    name: "Baj\xEDo o Banco de Arena"
+    shortLabel: "BAJ\xCDO"
+    emoji: "\u25B2"
+    customSprite: {fileID: 969303464, guid: 8c0817a2c70a2a24896aa519921045cb, type: 3}
+    hazardColor: {r: 0.65, g: 0.55, b: 0.35, a: 1}

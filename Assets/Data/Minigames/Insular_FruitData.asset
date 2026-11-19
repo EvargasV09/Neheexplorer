@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d61b066ca5115f4aa3df03afc4398ab, type: 3}
+  m_Name: Insular_FruitData
+  m_EditorClassIdentifier: Assembly-CSharp::Nehexplorer.InsularFruitDataSet
+  fruits:
+  - id: Coco
+    displayName: COCO
+    scientificName: Cocos nucifera
+    sprite: {fileID: 0}
+    color: {r: 0.78, g: 0.58, b: 0.32, a: 1}
+    diversityFact: "Aunque suele llamarse nuez, el coco es una drupa. Su cubierta fibrosa protege la semilla y contribuye a su flotaci\xF3n."
+    useFact: La pulpa se consume fresca y se usa para obtener leche de coco. El coco es conocido en la cocina del Caribe insular.
+    sources: "Contenido bot\xE1nico del prototipo pendiente de cotejo bibliogr\xE1fico docente. Asociaci\xF3n regional del cat\xE1logo pendiente de revisi\xF3n."
+  - id: FrutaPan
+    displayName: FRUTA DE PAN
+    scientificName: Artocarpus altilis
+    sprite: {fileID: 0}
+    color: {r: 0.6, g: 0.78, b: 0.25, a: 1}
+    diversityFact: Es un fruto compuesto formado por muchas flores. Existen cultivares con semillas y otros sin semillas.
+    useFact: "Su pulpa rica en almid\xF3n suele comerse cocida: hervida, asada o frita. No todas las frutas se consumen dulces."
+    sources: "Contenido bot\xE1nico del prototipo pendiente de cotejo bibliogr\xE1fico docente. Asociaci\xF3n regional del cat\xE1logo pendiente de revisi\xF3n."
+  - id: Mango
+    displayName: MANGO
+    scientificName: Mangifera indica
+    sprite: {fileID: 0}
+    color: {r: 1, g: 0.69, b: 0.14, a: 1}
+    diversityFact: "Es una drupa con una semilla grande. Las variedades cultivadas cambian en color, aroma, tama\xF1o y cantidad de fibra."
+    useFact: "Puede comerse fresco o prepararse en jugos. Una piel verde no siempre significa que el mango est\xE9 inmaduro."
+    sources: "Contenido bot\xE1nico del prototipo pendiente de cotejo bibliogr\xE1fico docente. Asociaci\xF3n regional del cat\xE1logo pendiente de revisi\xF3n."
+  - id: Papaya
+    displayName: PAPAYA
+    scientificName: Carica papaya
+    sprite: {fileID: 0}
+    color: {r: 1, g: 0.5, b: 0.23, a: 1}
+    diversityFact: "La papaya tiene numerosas semillas en una cavidad central. Su planta tiene un tallo blando, distinto del tronco le\xF1oso de muchos frutales."
+    useFact: La pulpa madura se consume fresca o en jugos. Observar semillas, hojas y frutos ayuda a reconocer distintas especies.
+    sources: "Contenido bot\xE1nico del prototipo pendiente de cotejo bibliogr\xE1fico docente. Asociaci\xF3n regional del cat\xE1logo pendiente de revisi\xF3n."
+  - id: Tamarindo
+    displayName: TAMARINDO
+    scientificName: Tamarindus indica
+    sprite: {fileID: 0}
+    color: {r: 0.82, g: 0.59, b: 0.38, a: 1}
+    diversityFact: 'El fruto es una vaina: el tamarindo pertenece a la familia de las leguminosas. Su pulpa rodea varias semillas duras.'
+    useFact: "La pulpa de sabor \xE1cido se usa en bebidas y dulces. Las frutas pueden tener sabores muy diferentes."
+    sources: "Contenido bot\xE1nico del prototipo pendiente de cotejo bibliogr\xE1fico docente. Asociaci\xF3n regional del cat\xE1logo pendiente de revisi\xF3n."
+  - id: Guanabana
+    displayName: "GUAN\xC1BANA"
+    scientificName: Annona muricata
+    sprite: {fileID: 0}
+    color: {r: 0.54, g: 0.77, b: 0.41, a: 1}
+    diversityFact: "Su fruto se forma a partir de varios carpelos de una flor. Tiene pulpa blanca, numerosas semillas oscuras y una c\xE1scara con protuberancias."
+    useFact: "La pulpa se utiliza en jugos y postres. Conocer una fruta tambi\xE9n significa aprender a distinguir su pulpa de sus semillas."
+    sources: "Contenido bot\xE1nico del prototipo pendiente de cotejo bibliogr\xE1fico docente. Asociaci\xF3n regional del cat\xE1logo pendiente de revisi\xF3n."
+  moveSpeed: 600
+  collectionRadius: 64
+  winTitle: "\xA1\xC1LBUM DE FRUTAS COMPLETO!"
+  winFact: La diversidad de frutas incluye diferentes especies, formas, colores y semillas. Conocerlas ayuda a valorar las plantas que nos alimentan. No todas las frutas cultivadas en una isla son nativas ni exclusivas de ella.
+  catalogNote: "Colecci\xF3n tropical de demostraci\xF3n. Selecci\xF3n regional pendiente de revisi\xF3n docente; no implica que todas las frutas sean nativas de las islas."

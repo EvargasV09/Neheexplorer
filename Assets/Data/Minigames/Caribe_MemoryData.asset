@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0178bf9d1f197344fbe292c8fd8a21b3, type: 3}
+  m_Name: Caribe_MemoryData
+  m_EditorClassIdentifier: Assembly-CSharp::Nehexplorer.MemoryGameDataSet
+  minigameTitle: "Memoria del Caribe: Especies y H\xE1bitats"
+  instructions: "Encuentra las parejas relacionando cada animal o planta representativa del Caribe con su h\xE1bitat natural."
+  winFactTitle: "\xBFSab\xEDas que...?"
+  winEducationalFact: "El Caribe colombiano no solo tiene playas: alberga el Bosque Seco Tropical, uno de los ecosistemas m\xE1s amenazados del pa\xEDs, donde habita el mono Tit\xED Cabeciblanco, una especie que NO vive en ning\xFAn otro lugar del planeta."
+  pairs:
+  - pairId: Flamenco
+    itemA:
+      pairId: Flamenco
+      title: Flamenco Rosado
+      subtitle: Ave representativa
+      emoji: "\U0001F9A9"
+      customSprite: {fileID: 21300000, guid: 8b65d19512f7bbf4aa365fa7aea75164, type: 3}
+      cardColor: {r: 1, g: 0.9, b: 0.92, a: 1}
+    itemB:
+      pairId: Flamenco
+      title: Santuario Los Flamencos
+      subtitle: Lagunas costeras (La Guajira)
+      emoji: "\U0001F30A"
+      customSprite: {fileID: 21300000, guid: efc1043f0632c7f458dfaefda88d640d, type: 3}
+      cardColor: {r: 0.9, g: 0.95, b: 1, a: 1}
+  - pairId: Caiman
+    itemA:
+      pairId: Caiman
+      title: "Caim\xE1n Aguja"
+      subtitle: "Reptil de gran tama\xF1o"
+      emoji: "\U0001F40A"
+      customSprite: {fileID: 21300000, guid: 930cbf1cdcbf4d24ba942f9deacedad9, type: 3}
+      cardColor: {r: 0.9, g: 0.97, b: 0.92, a: 1}
+    itemB:
+      pairId: Caiman
+      title: "Ci\xE9naga Grande"
+      subtitle: Manglares del Magdalena
+      emoji: "\U0001F33F"
+      customSprite: {fileID: 21300000, guid: 95b2d535123562243bf6b578882a4487, type: 3}
+      cardColor: {r: 0.9, g: 0.97, b: 0.92, a: 1}
+  - pairId: Titi
+    itemA:
+      pairId: Titi
+      title: "Tit\xED Cabeciblanco"
+      subtitle: "Primate \xFAnico de Colombia"
+      emoji: "\U0001F412"
+      customSprite: {fileID: 21300000, guid: 5245953914247f44ea2d2c6692e18285, type: 3}
+      cardColor: {r: 1, g: 0.96, b: 0.9, a: 1}
+    itemB:
+      pairId: Titi
+      title: Bosque Seco Tropical
+      subtitle: "Montes de Mar\xEDa y Bol\xEDvar"
+      emoji: "\U0001F333"
+      customSprite: {fileID: 21300000, guid: e4389594e704ecf4d9692d8015caf065, type: 3}
+      cardColor: {r: 1, g: 0.96, b: 0.9, a: 1}
+  - pairId: Carey
+    itemA:
+      pairId: Carey
+      title: Tortuga Carey
+      subtitle: Especie marina protegida
+      emoji: "\U0001F422"
+      customSprite: {fileID: 21300000, guid: 25506a5608eae1a4d9e57da950313f50, type: 3}
+      cardColor: {r: 0.88, g: 0.98, b: 0.96, a: 1}
+    itemB:
+      pairId: Carey
+      title: Arrecifes Coralinos
+      subtitle: Parque Nacional Tayrona
+      emoji: "\U0001FAB8"
+      customSprite: {fileID: 21300000, guid: dc09b53ec2047024981424011c08972d, type: 3}
+      cardColor: {r: 0.88, g: 0.98, b: 0.96, a: 1}
+  - pairId: Iguana
+    itemA:
+      pairId: Iguana
+      title: Iguana Verde
+      subtitle: "Reptil arbor\xEDcola"
+      emoji: "\U0001F98E"
+      customSprite: {fileID: 21300000, guid: fe8db4b4e6ad4824884cd46ea4e26c2d, type: 3}
+      cardColor: {r: 0.94, g: 0.98, b: 0.9, a: 1}
+    itemB:
+      pairId: Iguana
+      title: "Sabanas del Sin\xFA"
+      subtitle: "Pastizales c\xE1lidos de C\xF3rdoba"
+      emoji: "\U0001F33E"
+      customSprite: {fileID: 21300000, guid: 44b872418d432c4448411be75a09b957, type: 3}
+      cardColor: {r: 0.94, g: 0.98, b: 0.9, a: 1}
+  - pairId: Guacamaya
+    itemA:
+      pairId: Guacamaya
+      title: Guacamaya Verde
+      subtitle: Ave de dosel
+      emoji: "\U0001F99C"
+      customSprite: {fileID: 21300000, guid: 4e45e45bcd90d1e4f843cd6e77754a08, type: 3}
+      cardColor: {r: 0.98, g: 0.94, b: 0.88, a: 1}
+    itemB:
+      pairId: Guacamaya
+      title: Sierra Nevada
+      subtitle: "Monta\xF1a costera de Santa Marta"
+      emoji: "\u26F0\uFE0F"
+      customSprite: {fileID: 21300000, guid: 133425e33eeb0b84a82060fed34139c0, type: 3}
+      cardColor: {r: 0.98, g: 0.94, b: 0.88, a: 1}

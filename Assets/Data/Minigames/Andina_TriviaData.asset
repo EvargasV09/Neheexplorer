@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feab15eb0d2d7db4f9bd637270095ef3, type: 3}
+  m_Name: Andina_TriviaData
+  m_EditorClassIdentifier: Assembly-CSharp::Nehexplorer.AndeanTriviaDataSet
+  minigameTitle: "Trivia de las Cordilleras: Sabidur\xEDa Andina"
+  instructions: "Demuestra tu sabidur\xEDa sobre los p\xE1ramos, pisos t\xE9rmicos, cordilleras y biodiversidad andina antes de que acabe el tiempo."
+  secondsPerQuestion: 18
+  requiredScore: 3
+  winFactTitle: "\xBFSab\xEDas que...?"
+  winEducationalFact: "Colombia alberga cerca del 50% de los p\xE1ramos de todo el planeta, destacando el P\xE1ramo de Sumapaz (el m\xE1s extenso del mundo) y Chingaza. Los frailejones retienen el agua de la niebla como esponjas gigantes y la liberan gota a gota, alimentando los r\xEDos que abastecen a m\xE1s del 70% de la poblaci\xF3n del pa\xEDs."
+  questions:
+  - questionText: "\xBFQu\xE9 planta ic\xF3nica de los p\xE1ramos andinos atrapa la humedad de la niebla y la transforma en agua pura para los r\xEDos?"
+    category: "P\xE1ramos y Agua"
+    categoryEmoji: "\u25B2"
+    illustration: {fileID: 21300000, guid: 3becdeff94ed9a144acad31c64fbc0eb, type: 3}
+    options:
+    - "Frailej\xF3n"
+    - Cactus candelabro
+    - Palma de cera
+    - Manglar rojo
+    correctIndex: 0
+    explanation: Los frailejones tienen hojas cubiertas de vellosidades que retienen el agua de la niebla andina, nutriendo las lagunas y cuencas de Colombia.
+  - questionText: "Al entrar a Colombia desde el sur, la gran Cordillera de los Andes se divide en tres ramas monta\xF1osas. \xBFCu\xE1les son?"
+    category: Relieve y Cordilleras
+    categoryEmoji: "\u25B2"
+    illustration: {fileID: 21300000, guid: 60c19292fba4b9842a5f51ac0fbc58ab, type: 3}
+    options:
+    - Norte, Centro y Sur
+    - Occidental, Central y Oriental
+    - "Pac\xEDfica, Caribe y Amaz\xF3nica"
+    - "Nevada, Volc\xE1nica y Selva"
+    correctIndex: 1
+    explanation: 'En el Macizo Colombiano o ''Estrella Fluvial'' la cordillera se divide en tres cadenas: Occidental, Central y Oriental.'
+  - questionText: "\xBFEn qu\xE9 piso t\xE9rmico (clima templado, entre 1.000 y 2.000 msnm) se cultiva principalmente el caf\xE9 suave colombiano?"
+    category: "Pisos T\xE9rmicos y Caf\xE9"
+    categoryEmoji: "\u25B2"
+    illustration: {fileID: 21300000, guid: bcfea7af48937414ba51d559b20e3e3b, type: 3}
+    options:
+    - "Piso C\xE1lido (0 - 1.000 m)"
+    - Piso Templado (1.000 - 2.000 m)
+    - Piso Glacial / Nieves (> 4.500 m)
+    - "Piso P\xE1ramo (3.000 - 4.500 m)"
+    correctIndex: 1
+    explanation: "Las faldas de las cordilleras andinas en el piso templado ofrecen el suelo volc\xE1nico y el clima ideal para el caf\xE9 de reconocimiento mundial."
+  - questionText: "\xBFQu\xE9 majestuosa ave habita las cumbres andinas, es considerada el ave nacional y adorna el escudo de Colombia?"
+    category: Fauna de las Alturas
+    categoryEmoji: "\u25B2"
+    illustration: {fileID: 21300000, guid: 0aa9e9a8fd49899458ad5a97f06c993b, type: 3}
+    options:
+    - Flamenco rosado
+    - Guacamaya bandera
+    - "C\xF3ndor de los Andes"
+    - "Colibr\xED colirrufo"
+    correctIndex: 2
+    explanation: "El C\xF3ndor de los Andes es una de las aves voladoras m\xE1s grandes del mundo (envergadura de m\xE1s de 3 metros) y s\xEDmbolo patrio de libertad."
+  - questionText: "\xBFCu\xE1l es el \xE1rbol nacional de Colombia, que se eleva hasta 60 metros en el Valle de Cocora (Quind\xEDo)?"
+    category: "\xC1rbol Nacional"
+    categoryEmoji: "\u25B2"
+    illustration: {fileID: 21300000, guid: f0514325ab24abe4482baec178ae5696, type: 3}
+    options:
+    - Ceiba pentandra
+    - "Palma de Cera del Quind\xEDo"
+    - "Eucalipto de monta\xF1a"
+    - "Pino romer\xF3n"
+    correctIndex: 1
+    explanation: "La Palma de Cera del Quind\xEDo es la palmera m\xE1s alta del planeta y santuario vital del loro orejiamarillo en la cordillera central."
+  - questionText: "\xBFCu\xE1l es el p\xE1ramo m\xE1s extenso del planeta Tierra, situado en la cordillera Oriental de Colombia?"
+    category: "El Gran P\xE1ramo"
+    categoryEmoji: "\u25B2"
+    illustration: {fileID: 21300000, guid: d2d04a65c6cf81b468fccb9f49b1c621, type: 3}
+    options:
+    - "P\xE1ramo de Sumapaz"
+    - "P\xE1ramo de Santurb\xE1n"
+    - "P\xE1ramo de Ocet\xE1"
+    - "P\xE1ramo de las Hermosas"
+    correctIndex: 0
+    explanation: "Con m\xE1s de 330.000 hect\xE1reas protegidas, el P\xE1ramo de Sumapaz es la mayor f\xE1brica natural de agua dulce del mundo."
