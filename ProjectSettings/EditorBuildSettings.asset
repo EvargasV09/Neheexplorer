@@ -6,8 +6,32 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MapaHub.unity
+    guid: e979a22c3c5469b498d8970441c5d87b
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Caribe.unity
+    guid: 6ae23795cea1f9b4bb93b884b9fb87e3
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Andina.unity
+    guid: c9145c6ef329ec9488fbd5d55bf7299d
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Orinoquia.unity
+    guid: 7ef0199070b610040b73d38ab1e9a193
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Amazonica.unity
+    guid: 39ebeced5881153468fb471071fec2c6
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Insular.unity
+    guid: c018023e93c74884a8261f5365896740
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Pacifica.unity
+    guid: ade463f9f94ad3b4e8262eff0f2d1dd5
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Espiritual.unity
+    guid: a28edac0dcf0a8b40afc44c01204b995
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
