@@ -1,0 +1,326 @@
+fileFormatVersion: 2
+guid: 173dd756aa734ee4d9a3d018c34a91ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1896941903808008826
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_0
+  - first:
+      213: -3889090854534818127
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_1
+  - first:
+      213: -8643629321313086307
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_2
+  - first:
+      213: 6071159414176072126
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_3
+  - first:
+      213: 2352979772340514289
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_4
+  - first:
+      213: -5705384612682920735
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_5
+  - first:
+      213: -1468230225303065201
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_6
+  - first:
+      213: -3624662854109482808
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_7
+  - first:
+      213: 6638150898886418686
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_8
+  - first:
+      213: 4460241994260284083
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_9
+  - first:
+      213: 1808500104590100215
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_10
+  - first:
+      213: -9074191810594552915
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_11
+  - first:
+      213: 6556675248076524678
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_12
+  - first:
+      213: -1789591065728831249
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_13
+  - first:
+      213: 7662533362360427121
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_14
+  - first:
+      213: -3088020635157967740
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_15
+  - first:
+      213: -5023760862389702012
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_16
+  - first:
+      213: -1668161124462861490
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_17
+  - first:
+      213: 4280646853878784715
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_18
+  - first:
+      213: -2504586129477474293
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_19
+  - first:
+      213: -3286104461474585178
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_20
+  - first:
+      213: -1463951138685215263
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_21
+  - first:
+      213: -6995172729828390074
+    second: 7916f0533928a32e672e4a067821a42ed3cd3063_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mango
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 216
+        width: 126
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f896f47d21dc3a40860127ec75a52af
+      internalID: -153014548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papaya
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 216
+        width: 148
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1be677bb514bc34d91866a38bc3ff2b
+      internalID: 458941036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tamarindo
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 215
+        width: 166
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36251e686ff321c42bfd783567ca1c19
+      internalID: 1889574325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guanabana
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 35
+        width: 145
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f7c132a433f97479fb18bf342db03c
+      internalID: 1448582669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coco
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 35
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a728bb951bd61489dcee44b40d208e
+      internalID: -1186734800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrutaPan
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 33
+        width: 158
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91d88b84fe7bb641812966b5aa5899a
+      internalID: -1112370089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e12c6980f6869964fa26ae46f9ff71ea
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Coco: -1186734800
+      FrutaPan: -1112370089
+      Guanabana: 1448582669
+      Mango: -153014548
+      Papaya: 458941036
+      Tamarindo: 1889574325
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

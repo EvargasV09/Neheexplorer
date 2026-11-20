@@ -19,6 +19,7 @@ public class BossVictory : MonoBehaviour
     private Rigidbody2D _body;
     private BossAttack _attack;
     private BossGroundSlam _slam;
+    private BossAnimation _animation;
     private Collider2D[] _colliders;
     private SpriteRenderer _sprite;
     private bool _finished;
@@ -29,6 +30,7 @@ public class BossVictory : MonoBehaviour
         _body = GetComponent<Rigidbody2D>();
         _attack = GetComponent<BossAttack>();
         _slam = GetComponent<BossGroundSlam>();
+        _animation = GetComponent<BossAnimation>();
         _colliders = GetComponentsInChildren<Collider2D>();
         _sprite = GetComponent<SpriteRenderer>();
     }
@@ -69,6 +71,7 @@ public class BossVictory : MonoBehaviour
     {
         float direction = sceneCamera == null || transform.position.x >= sceneCamera.transform.position.x ? 1f : -1f;
         _body.linearVelocity = new Vector2(direction * exitHorizontalSpeed, exitJumpSpeed);
+        if (_animation != null) _animation.PlayJump(exitJumpSpeed);
         float elapsed = 0f;
         while (elapsed < maxExitDuration)
         {

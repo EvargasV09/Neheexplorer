@@ -33,6 +33,9 @@ namespace Nehexplorer
         [SerializeField] protected Button returnToHubButton;
         [SerializeField] protected TextMeshProUGUI returnButtonText;
 
+        [Header("Instrucciones Iniciales")]
+        [SerializeField] private bool waitForInstructions;
+
         protected bool isGameActive = false;
         protected bool hasWon = false;
 
@@ -89,7 +92,7 @@ namespace Nehexplorer
 
         protected virtual void Start()
         {
-            StartGame();
+            if (!waitForInstructions) StartGame();
         }
 
         /// <summary>

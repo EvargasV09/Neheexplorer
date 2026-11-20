@@ -987,7 +987,6 @@ GameObject:
   - component: {fileID: 343881760}
   - component: {fileID: 343881759}
   - component: {fileID: 343881758}
-  - component: {fileID: 343881761}
   m_Layer: 0
   m_Name: ExploreButton
   m_TagString: Untagged
@@ -1059,9 +1058,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 343881761}
-        m_TargetAssemblyTypeName: Nehexplorer.EncocadoHubNavigator, Assembly-CSharp
-        m_MethodName: Explorar
+      - m_Target: {fileID: 1051952438}
+        m_TargetAssemblyTypeName: Nehexplorer.RegionWheelController, Assembly-CSharp
+        m_MethodName: OnClickExplore
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1109,19 +1108,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 343881756}
   m_CullTransparentMesh: 1
---- !u!114 &343881761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 343881756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f181f4469c9a5cd4e8dcc3d3224132e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Nehexplorer.EncocadoHubNavigator
-  _rueda: {fileID: 1051952438}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2114,7 +2100,8 @@ MonoBehaviour:
     guardianName: "Guardi\xE1n de la Lluvia y las Mareas"
     description: "Una de las zonas m\xE1s lluviosas del planeta. Sus aguas son santuario anual de ballenas y sus r\xEDos arterias de vida y riqueza cultural afrodescendiente e ind\xEDgena."
     minigames:
-    - "La ballena chef: prepara un Encocado con ingredientes del Pac\xEDfico"
+    - 'Restaura el manglar: Retira residuos y ubica plantas'
+    - Conecta animales con sus refugios y conoce el ecosistema
     themeColor: {r: 0.28, g: 0.72, b: 0.62, a: 1}
     sliceSprite: {fileID: 0}
     normalOffset: {x: 0, y: 0}

@@ -16,7 +16,7 @@ MonoBehaviour:
   - id: Coco
     displayName: COCO
     scientificName: Cocos nucifera
-    sprite: {fileID: 0}
+    sprite: {fileID: -1186734800, guid: 173dd756aa734ee4d9a3d018c34a91ee, type: 3}
     color: {r: 0.78, g: 0.58, b: 0.32, a: 1}
     diversityFact: "Aunque suele llamarse nuez, el coco es una drupa. Su cubierta fibrosa protege la semilla y contribuye a su flotaci\xF3n."
     useFact: La pulpa se consume fresca y se usa para obtener leche de coco. El coco es conocido en la cocina del Caribe insular.
@@ -24,7 +24,7 @@ MonoBehaviour:
   - id: FrutaPan
     displayName: FRUTA DE PAN
     scientificName: Artocarpus altilis
-    sprite: {fileID: 0}
+    sprite: {fileID: -1112370089, guid: 173dd756aa734ee4d9a3d018c34a91ee, type: 3}
     color: {r: 0.6, g: 0.78, b: 0.25, a: 1}
     diversityFact: Es un fruto compuesto formado por muchas flores. Existen cultivares con semillas y otros sin semillas.
     useFact: "Su pulpa rica en almid\xF3n suele comerse cocida: hervida, asada o frita. No todas las frutas se consumen dulces."
@@ -32,7 +32,7 @@ MonoBehaviour:
   - id: Mango
     displayName: MANGO
     scientificName: Mangifera indica
-    sprite: {fileID: 0}
+    sprite: {fileID: -153014548, guid: 173dd756aa734ee4d9a3d018c34a91ee, type: 3}
     color: {r: 1, g: 0.69, b: 0.14, a: 1}
     diversityFact: "Es una drupa con una semilla grande. Las variedades cultivadas cambian en color, aroma, tama\xF1o y cantidad de fibra."
     useFact: "Puede comerse fresco o prepararse en jugos. Una piel verde no siempre significa que el mango est\xE9 inmaduro."
@@ -40,7 +40,7 @@ MonoBehaviour:
   - id: Papaya
     displayName: PAPAYA
     scientificName: Carica papaya
-    sprite: {fileID: 0}
+    sprite: {fileID: 458941036, guid: 173dd756aa734ee4d9a3d018c34a91ee, type: 3}
     color: {r: 1, g: 0.5, b: 0.23, a: 1}
     diversityFact: "La papaya tiene numerosas semillas en una cavidad central. Su planta tiene un tallo blando, distinto del tronco le\xF1oso de muchos frutales."
     useFact: La pulpa madura se consume fresca o en jugos. Observar semillas, hojas y frutos ayuda a reconocer distintas especies.
@@ -48,7 +48,7 @@ MonoBehaviour:
   - id: Tamarindo
     displayName: TAMARINDO
     scientificName: Tamarindus indica
-    sprite: {fileID: 0}
+    sprite: {fileID: 1889574325, guid: 173dd756aa734ee4d9a3d018c34a91ee, type: 3}
     color: {r: 0.82, g: 0.59, b: 0.38, a: 1}
     diversityFact: 'El fruto es una vaina: el tamarindo pertenece a la familia de las leguminosas. Su pulpa rodea varias semillas duras.'
     useFact: "La pulpa de sabor \xE1cido se usa en bebidas y dulces. Las frutas pueden tener sabores muy diferentes."
@@ -56,7 +56,7 @@ MonoBehaviour:
   - id: Guanabana
     displayName: "GUAN\xC1BANA"
     scientificName: Annona muricata
-    sprite: {fileID: 0}
+    sprite: {fileID: 1448582669, guid: 173dd756aa734ee4d9a3d018c34a91ee, type: 3}
     color: {r: 0.54, g: 0.77, b: 0.41, a: 1}
     diversityFact: "Su fruto se forma a partir de varios carpelos de una flor. Tiene pulpa blanca, numerosas semillas oscuras y una c\xE1scara con protuberancias."
     useFact: "La pulpa se utiliza en jugos y postres. Conocer una fruta tambi\xE9n significa aprender a distinguir su pulpa de sus semillas."

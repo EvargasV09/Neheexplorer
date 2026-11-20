@@ -264,6 +264,10 @@ namespace Nehexplorer
             {
                 UnityEngine.SceneManagement.SceneManager.LoadScene("Minigame_Pacifica");
             }
+            else if (_currentSelectedRegion == RegionType.Espiritual)
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Minigame_Espiritual");
+            }
         }
 
         public void InitializeDefaultDatabase()
