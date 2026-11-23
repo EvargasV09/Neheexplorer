@@ -262,7 +262,7 @@ namespace Nehexplorer
             }
             else if (_currentSelectedRegion == RegionType.Pacifica)
             {
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Minigame_Pacifica");
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Minigame_Pacifica_Encocado");
             }
             else if (_currentSelectedRegion == RegionType.Espiritual)
             {
@@ -359,8 +359,7 @@ namespace Nehexplorer
                     guardianName = "Guardián de la Lluvia y las Mareas",
                     description = "Una de las zonas más lluviosas del planeta. Sus aguas son santuario anual de ballenas y sus ríos arterias de vida y riqueza cultural afrodescendiente e indígena.",
                     minigames = new string[] {
-                        "Restaura el manglar: Retira residuos y ubica plantas",
-                        "Conecta animales con sus refugios y conoce el ecosistema"
+                         "La ballena chef: prepara un Encocado con ingredientes del Pac\xEDfico"
                     },
                     themeColor = new Color(0.28f, 0.72f, 0.62f)
                 },
